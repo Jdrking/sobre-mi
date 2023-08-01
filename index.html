@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jorge Rey">
     <link rel="icon" href="programacion.ico">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Resumen del alumno</title>
 </head>
 <body>
-    <header>
-        <h1>Informacion del Alumno</h1>
-        <nav>
-          <a href="#datosb">Click aqui para ir a Datos Basicos</a><br>
+    <header> <!--ETIQUETA PARA ENCABEZADO DE LA PAGINA-->
+        <h1 class="tituloprincipal">Informacion del Alumno</h1> <!--H1 PARA TITULO PRINCIPAL DENTRO DEL HEADER-->  
+        <nav class="navegador">
+          <a href="#datosb">Click aqui para ir a Datos Basicos</a><br>         <!--UN NAV (BARRA DE NAVEGACION) DENTRO DEL ENCABEZADO, CON LINKS EN ESTE CASO PARA NAVEGAR DENTRO DE LA PAGINA-->
           <a href="#int">Click aqui para ir a Intereses</a><br>
           <a href="#exp">Click aqui para ir a Experiencias</a>
         </nav>
     </header>
     <main>
-        <div>
+        <div class="div1">
         <article> 
           <section>  
-            <h2 id="datosb">Datos Basicos</h2>
-            <ul>
+            <h2 id="datosb" class="div1__h2">Datos Basicos</h2>
+            <ul> <!--LISTA CON SUS ELEMENTOS LI-->
                 <li><b>Nombre:</b> Jorge</li>
                 <li><b>Apellido:</b> Rey</li>
                 <li><b>Edad:</b> 35 años</li>
@@ -30,11 +30,11 @@
           </section> 
         </article>
         </div>
-        <div> 
+        <div>                               
         <article>
           <section>    
             <h2 id="int">Intereses</h2>
-            <ul>
+            <ul>                                 <!--LISTAS CON ENLACES HACIA FOTOS CON SUS RESPECTIVOS ATRIBUTOS(ALT, SRC, TITLE ETC)-->
                 <li><b>Programacion Web</b></li><br><img src="programacion.jpg" width="250" height="200" alt="Imagen iconos de frontend" title="Simbolos de lenguajes">
                 <li><b>Deportes:</b> Futbol // Padel // Tenis</li><br><img src="futbol.jpg" width="200" height="200" alt="imagen de futbol" title="Pelota"> <img src="padel.jpg" width="250" height="200" alt="imagen de padel" title="Paleta pelotas"> <img src="tenis.jpg" width="200" height="200" alt="imagen de raquetas y pelota" title="Raqueta pelotas">
                 <li><b>Mascotas</b></li><img src="mascotas.jpg" width="200" height="200" alt="imagen de perro y gato" title="Perro y gato">
@@ -46,25 +46,27 @@
         <div>
         <article>
           <section>  
-            <h2 id="exp">Experiencias</h2>
+            <h2 id="exp">Experiencias</h2>                  <!--SECCION CON TEXTO Y ENTRE MEDIO ENLACES A PAGINAS EXTERNAS CON SUS ATRIBUTOS-->
             <p>Trabajo hace 12 años en una empresa para mascotas llamada Puppis <img src="puppis.jpg" width="20" height="20" alt="Logo Puppis" title="Logo Puppis"> con sedes en Colombia y Argentina.<br>Curse hace mas de 12 años un cuatrimestre de "Tecnico superior en sistemas informaticos" en la <a href="https://www.frgp.utn.edu.ar/"><b>UTN</b></a> pero por diferentes motivos abandone.<br>
             Realice un pequeño curso de magia en <a href="https://bazardemagia.com"><b>"Bazar de Magia"</b></a>.</p>
           </section>            
         </article>
         </div>
-        <aside>
+        <aside class="asidestyle">
+            <h3>Informacion adicional</h3>
             <p>Jorge Rey, nacido el 25 de diciembre de 1987, en la ciudad de Buenos Aires. Padre de 2 hijos, fanantico de Messi, Federer y David Copperfield</p><br>
             <img src="messi.jpg" width="350" height="250" alt="Lionel Andres Messi" title="Lionel Messi">
             <img src="federer.jpg" width="350" height="250" alt="Roger Federer" title="Roger Federer">
-            <video src="magia.mp4" controls="" width="350" height="300" alt="Video de mago" title="Video de mago"> 
+            <video src="magia.mp4" controls="" width="350" height="300" alt="Video de mago" title="Video de mago"> <!--ETIQUETA DE VIDEO CON SUS ATRIBUTOS-->
 
             </video>
         </aside>
-        <footer>
+        <footer class="contact-footer">                              <!--ETIQUETA DE PIE DE PAGINA CON LISTA DENTRO-->
             <ul>
                 <li><b>Instagram:</b> @yorshking</li>
                 <li><b>Contacto:</b> yorshyaan@gmail.com</li>
                 <li>Copyright - Todos los derechos reservados.</li>
+                <li>Practico N0: HTML - CSS</li>
             </ul>
         </footer>
 
