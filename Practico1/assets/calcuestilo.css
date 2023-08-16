@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(146, 115, 58);
+}
+h1, h2, h5{
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    border-radius: 10px;
+    padding: 10px;
+}
+#calculadora{
+    background-color: darkorange;
+    text-align: center; 
+    border-radius: 10px;
+    width: 700px;
+    height: 100px;
+    padding: 50px 25px 5px;
+    margin: auto;
+    box-shadow: 10px 10px black;
+   
+}
+/* Estilos de los elementos dentro de la calculadora */
+input[type="text"], select, button {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Estilos del botón "Calcular" */
+#calculo {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos del botón "C" */
+#reset {
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
